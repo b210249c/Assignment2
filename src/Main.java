@@ -61,7 +61,6 @@ public class Main {
 
                         System.out.print(index + ". ");
                         System.out.println(data);
-                        System.out.println();
 
                         if (items[1].equals(" Diploma Lanjutan")){
                             diplomaLanjutan.add(items[2]);
@@ -72,6 +71,8 @@ public class Main {
                     }
                     index++;
                 }
+
+                System.out.println();
 
                 System.out.println("Total: "+diplomaLanjutan.size()+"\nDiploma Lanjutan names: ");
                 for (String name:diplomaLanjutan){
